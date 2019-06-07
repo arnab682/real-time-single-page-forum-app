@@ -2,9 +2,11 @@
 
 namespace App\Model;
 
-use app\User;
-use app\Model\Like;
-use app\Model\Question;
+use App\User;
+use App\Model\Question;
+use App\Model\Reply;
+use App\Model\Like;
+use App\Model\Category;
 use Illuminate\Database\Eloquent\Model;
 
 class Reply extends Model
