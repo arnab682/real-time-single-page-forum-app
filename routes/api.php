@@ -1,6 +1,10 @@
 <?php
 
-use Illuminate\Http\Request;
+Route::apiResource('/question', 'QuestionController');
+
+
+
+//use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +17,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
